@@ -1,4 +1,7 @@
 # Tourneyket
+![GitHub License](https://img.shields.io/github/license/shoenot/tourneyket?style=for-the-badge)
+![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fshoenot%2Ftourneyket%2Frefs%2Fheads%2Fmain%2Fpyproject.toml&style=for-the-badge)
+![PyPI - Version](https://img.shields.io/pypi/v/tourneyket?style=for-the-badge)
 
 Package to let you easily represent and progress Bracket-style single elimination Tournaments,
 allowing you to focus on matchup logic and analysis without worrying about the boilerplate. 
@@ -8,7 +11,16 @@ The Bracket object accepts an initial bracket and a function to select matchup w
 Automatically fills out the rest of the bracket using whatever logic you provide, 
 and implements a method to print out the final bracket to console in a nice, bracket shaped format. 
 
-Example:
+## Installation:
+
+Install from pip: 
+
+```
+pip install Tourneyket 
+```
+
+## Example:
+
 ```python
 from tourneyket import Bracket
 
