@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "Tourneyket"
-version = "0.1.0"
+version = "0.1.1"
 authors = [{name = "Shurjo Sakib Masood", email = "mail@shurjo.me"}]
 description = "Easily represent, progress, and visualize Bracket-style Tournaments"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent"
