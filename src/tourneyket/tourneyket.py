@@ -11,6 +11,13 @@ from math import floor
 from random import choice
 from collections.abc import Callable
 
+__author__ = "Shurjo Sakib Masood"
+__copyright__ = "Copyright 2025, Shurjo Sakib Masood"
+__license__ = "MIT"
+__version__ = "0.1.0"
+__email__ = "mail@shurjo.me"
+__status__ = "Production"
+
 def equal_chance(a: object, b: object) -> object:
     return choice([a, b]) 
 
@@ -98,7 +105,7 @@ class Bracket():
         if level == 0:
             return ""
         else:
-            return (" " * self._spaces * (level - 1) + "|" + "-" * (self._spaces * 1 - 1))
+            return (" " * self._spaces * (level - 1) + " |" + "-" * (self._spaces * 1 - 3) + " ")
 
     def _pivot(self, bracket: list, output_list: list, level: int) -> list:
         """
@@ -135,5 +142,7 @@ class Bracket():
         bracket_to_pop = list.copy(self.bracket)
         level = len(self.bracket) - 1
         output_list = self._pivot(bracket_to_pop, output_list, level)
+        print("")
         for item in output_list:
             print(item)
+        print("")
