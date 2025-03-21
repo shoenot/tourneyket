@@ -14,7 +14,7 @@ from collections.abc import Callable
 __author__ = "Shurjo Sakib Masood"
 __copyright__ = "Copyright 2025, Shurjo Sakib Masood"
 __license__ = "MIT"
-__version__ = "0.1.6"
+__version__ = "1.0.0"
 __email__ = "mail@shurjo.me"
 __status__ = "Production"
 
