@@ -12,7 +12,7 @@ Example:
 ```python
 from tourneyket import Bracket
 
-# List of competitors. 1 plays 2, 3 plays 4... and so on. Likewise, inner of 1v2 plays winner of 3v4, etc.
+# List of competitors. 1 plays 2, 3 plays 4... and so on. Likewise, winner of 1v2 plays winner of 3v4, etc.
 my_tournament = [{"name": "Kitten State", "power_level": 9001},
                 {"name": "Bunnyville", "power_level": 6000},
                 {"name": "Muscle Hamsters", "power_level": 2},
