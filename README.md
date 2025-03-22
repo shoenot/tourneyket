@@ -1,11 +1,11 @@
 # Tourneyket
-![GitHub License](https://img.shields.io/github/license/shoenot/tourneyket?style=for-the-badge)
+[![GitHub License](https://img.shields.io/github/license/shoenot/tourneyket?style=for-the-badge)](https://github.com/shoenot/tourneyket?tab=MIT-1-ov-file)
 ![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fshoenot%2Ftourneyket%2Frefs%2Fheads%2Fmain%2Fpyproject.toml&style=for-the-badge)
-![PyPI - Version](https://img.shields.io/pypi/v/tourneyket?style=for-the-badge)
+[![PyPI - Version](https://img.shields.io/pypi/v/tourneyket?style=for-the-badge)](https://pypi.org/project/Tourneyket/)
 
 Package to let you easily represent and progress Bracket-style single elimination Tournaments,
 allowing you to focus on matchup logic and analysis without worrying about the boilerplate. 
-Supports 2, 4, 8, 16, 32, 64...n^2 starting teams.
+Supports 2, 4, 8, 16, 32, 64... 2^n starting teams.
 
 The Bracket object accepts an initial bracket and a function to select matchup winner.
 Automatically fills out the rest of the bracket using whatever logic you provide, 

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "Tourneyket"
-version = "1.0.0"
+version = "1.0.1"
 authors = [{name = "Shurjo Sakib Masood", email = "mail@shurjo.me"}]
 description = "Easily represent, progress, and visualize Bracket-style Tournaments"
 readme = "README.md"
